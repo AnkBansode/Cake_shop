@@ -1,0 +1,180 @@
+body
+{
+    background-image: url('images/bg.jpg');
+
+}
+.nav
+{
+    background-color: rgb(43, 42, 42);
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    width: 42%;
+    border-radius: 9px;
+    font-weight:bold;
+    height: 40px;
+}
+.nav a /* navbar a tag */
+{
+    padding: 5px;
+    color: aliceblue;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-head
+{
+    color: rgb(193, 219, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* font style in writing*/
+    font-size: 35px;
+    text-shadow: 10px 10px 10px rgb(89, 63, 63);
+    font-style:italic ;
+    text-transform:uppercase ;
+}
+.sub-head
+{
+    color: rgb(193, 219, 243);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-shadow: 5px 5px 5px rgb(89, 63, 63);
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.menu
+{
+    border: 2px solid #ccc;
+    width: 25%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    border-radius:10px;
+}
+.menu-container /*menu title styling */
+{
+    background-color: rgb(13, 154, 179);
+    width:68%;
+    margin: auto auto;
+    padding: 15px;
+    height: 880px;
+    color: rgb(138, 74, 102);
+}
+.menu-container h1
+{
+    text-align: center;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-container .menu a /* buy button*/
+{
+    padding: 10px;
+    background-color: rgb(94, 125, 209);
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.menu-container .menu a:hover
+{
+  background-color: rgb(79, 212, 183);  
+}
+.menu-container form
+{
+    width: 50px;
+    margin: auto auto;
+    color: white;
+}
+  .menu img       /*img border */ 
+{
+    border-radius: 10px;
+    padding: 15px;
+    transition: 1.5s;
+} 
+ .menu         /* veg nveg bg img styling */
+{
+    border: 2px solid #ccc;
+    width: 25%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    border-radius:10px; 
+}
+.menu-container form
+{
+    width: 70%;
+    margin: auto auto;
+    color: white;
+}
+.menu img:hover /* img cursur styling*/
+{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+label
+{
+    display: block;
+    font-weight: bold;
+    color: aliceblue;
+}
+input[type=text],select,input[type=email],input[type=password]
+{
+    width: 90%;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px;
+}
+.btn
+{
+    padding: 7px;
+    font-weight: bold;
+    color:azure;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
+.sub
+{
+    background-color: rgba(25, 107, 215, 0.822);
+}
+.res
+{
+    background-color: rgba(233, 72, 83, 0.883);
+}
+.bt
+{
+    width: 30%;
+    padding: 7px;
+    font-weight: bold;
+    color:azure;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(181, 178, 178); 
+}
+.ct
+{
+    width: 30%;
+    padding: 7px;
+    font-weight: bold;
+    color:azure;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(181, 178, 178);  
+}
+.bt:hover
+{
+    background-color: rgb(141, 240, 111);
+    transition: 1.2s;
+}
+.ct:hover
+{
+    background-color: rgb(252, 76, 45);
+    transition: 1.2s;
+}
